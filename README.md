@@ -32,3 +32,9 @@ root@raspberrypi:/home/pi# python send_ussd_serial_wvdial.py
 OK - Se encontro el saldo disponible para la consulta de Beneficios. Saldo Disponible: 966.9 Colones. Duracion de la consulta: 14.22925seg | time=14.22925
 
 ```
+
+## Para pruebas manuales
+
+```
+root@raspberrypi:/home/pi# minicom -b 9600 -D /dev/ttyACM1
+```
